@@ -42,12 +42,12 @@ const Experience = () => {
       tittle: "Next.js",
       style: "shadow-white",
     },
-{
+    {
       id: 6,
       src: mongoDB,
       tittle: "MongoDB",
       style: "shadow-green-900",
-      pStyle:"h-20 w-22 sm:w-44 ",
+      pStyle: "h-20 w-22 sm:w-44 ",
     },
     {
       id: 7,
@@ -71,7 +71,7 @@ const Experience = () => {
   return (
     <div
       name="experience"
-      className="h-screen w-full bg-gradient-to-b from-gray-800 to-black p-4"
+      className="h-fit lg:h-screen w-full bg-gradient-to-b from-gray-800 to-black p-4"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center items-center w-full h-full text-white">
         <div className="flex flex-col items-center justify-center">
@@ -82,7 +82,7 @@ const Experience = () => {
         </div>
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
           {techs.map(
-            ({ id, tittle, src, style,pStyle}) => (
+            ({ id, tittle, src, style, pStyle }) => (
               <div
                 key={id}
                 className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
