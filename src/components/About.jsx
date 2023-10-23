@@ -13,33 +13,13 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-10">
-          Introducing{" "}
-          <span className="text-blue-500">Deeptesh</span>, a trailblazing full
-          stack web developer with an unwavering passion for{" "}
-          <span className="text-blue-500">MERN development.</span>
-          Harnessing the power of MongoDB, Express.js, React.js, and Node.js,
-          Deeptesh crafts digital masterpieces that redefine user experiences
-          and elevate businesses to unprecedented heights.
-
-          Collaborating with Deeptesh means a transformative experience. They
-          dive deep into your vision, delivering tailor-made solutions
-          flawlessly and on schedule.
-
-          Client satisfaction drives Deeptesh's work ethic, earning them
-          unwavering praise across diverse industries.
+          I am thrilled to introduce myself as a highly enthusiastic and accomplished <span className="text-blue-500">full-stack web developer</span> , eager to explore exciting opportunities in the world of <span className="text-blue-500">MERN (MongoDB, Express.js, React.js, and Node.js)</span> development. My relentless passion for web development has propelled me to craft digital masterpieces, revolutionizing user experiences and driving businesses to new heights.
+          What truly sets me apart is my unwavering dedication to delivering customized solutions with precision and an unwavering commitment to deadlines. When you collaborate with me, you embark on a transformative journey. I meticulously delve into your unique vision, ensuring that the final product aligns seamlessly with your objectives. The result? Satisfied clients from a wide array of industries who have praised my work.
         </p>
         <br />
         <p className="text-xl">
-          Beyond technical virtuosity, Deeptesh excels as an avid communicator,
-          bridging the gap between code and clarity.
-
-          Their forward-thinking approach ensures future-proofed solutions,
-          keeping you ahead of the curve.
-
-          For startups, SMEs, or enterprises seeking unparalleled digital
-          success, Deeptesh is the ultimate partner. Elevate your brand and
-          witness your dreams turn into realities.
-        </p>
+          In addition to my technical prowess, I excel as an effective and clear communicator. I bridge the gap between complex lines of code and a lucid understanding, ensuring that all stakeholders are on the same page. My forward-thinking approach guarantees that the solutions I deliver are not just for today but are also future-proofed, keeping you at the forefront of technological advancements.
+          If you are seeking a dedicated and passionate web developer to join your team, I am confident that my skills and expertise make me the ideal candidate. I am excited about the prospect of contributing to your organization's success and bringing your digital vision to life.        </p>
       </div>
     </div>
   );

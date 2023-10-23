@@ -1,35 +1,48 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import fitneeLogger from "../assets/portfolio/FITNESSLOGGER.png";
+import astus from "../assets/portfolio/Astus.png";
+import brandQuube from "../assets/portfolio/BrandQuube.png";
+import restro from "../assets/portfolio/restro.png";
+import vj from "../assets/portfolio/vj.png";
+import wheather from "../assets/portfolio/wheather.png";
+
 const Portfolio = () => {
   const cards = [
     {
       id: 1,
-      src: arrayDestruct,
+      src: fitneeLogger,
+      link: "https://fitnesslogger.netlify.app",
+      code: "https://github.com/DeepteshChaudhari/fitness-logger",
     },
     {
       id: 2,
-      src: installNode,
+      src: astus,
+      link: "https://astus.netlify.app",
+      code: "https://github.com/DeepteshChaudhari/Astus",
     },
     {
       id: 3,
-      src: navbar,
+      src: brandQuube,
+      link: "https://brand-quube.netlify.app",
+      code: "https://github.com/DeepteshChaudhari/BQ-Website",
     },
     {
       id: 4,
-      src: reactWeather,
+      src: restro,
+      link: "https://restro-page-by-deeptesh.netlify.app",
+      code: "https://github.com/DeepteshChaudhari/restro-page",
     },
     {
       id: 5,
-      src: reactParallax,
+      src: vj,
+      link: "https://vj-landingpage.netlify.app",
+      code: "https://github.com/DeepteshChaudhari/VJ-Portia-Website",
     },
     {
       id: 6,
-      src: reactSmooth,
+      src: wheather,
+      link: "https://weather-app-by-deeptesh.netlify.app",
+      code: "https://github.com/DeepteshChaudhari/weather-app",
     },
   ];
   return (
@@ -45,7 +58,7 @@ const Portfolio = () => {
           <p className="py-6">Check out some of my work right here</p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:p-0">
-          {cards.map(({ id, src }) => (
+          {cards.map(({ id, src, link, code }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -53,12 +66,8 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex justify-center items-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  demo
-                </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  card
-                </button>
+                <a href={link} className="px-6 py-1 m-4 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-lg duration-300 hover:scale-105">Demo</a>
+                <a href={code} className="px-6 py-1 m-4 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-lg duration-300 hover:scale-105">Code</a>
               </div>
             </div>
           ))}

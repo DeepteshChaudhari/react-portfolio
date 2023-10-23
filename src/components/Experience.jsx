@@ -6,9 +6,9 @@ import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import tailwind from "../assets/tailwind.png";
 import reactImage from "../assets/react.png";
-import nextjs from "../assets/nextjs.png";
+import nodejs from "../assets/node.png";
 import github from "../assets/github.png";
-import graphql from "../assets/graphql.png";
+import express from "../assets/express.png";
 
 const Experience = () => {
   const techs = [
@@ -38,9 +38,9 @@ const Experience = () => {
     },
     {
       id: 5,
-      src: nextjs,
-      tittle: "Next.js",
-      style: "shadow-white",
+      src: nodejs,
+      tittle: "Node.js",
+      style: "shadow-green-400",
     },
     {
       id: 6,
@@ -51,9 +51,10 @@ const Experience = () => {
     },
     {
       id: 7,
-      src: graphql,
-      tittle: "Graphql",
-      style: "shadow-pink-400",
+      src: express,
+      tittle: "Express",
+      style: "shadow-white",
+      pStyle: "h-20 w-22 sm:w-44 ",
     },
     {
       id: 9,
