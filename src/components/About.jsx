@@ -13,13 +13,12 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-10">
-          I am thrilled to introduce myself as a highly enthusiastic and accomplished <span className="text-blue-500">full-stack web developer</span> , eager to explore exciting opportunities in the world of <span className="text-blue-500">MERN (MongoDB, Express.js, React.js, and Node.js)</span> development. My relentless passion for web development has propelled me to craft digital masterpieces, revolutionizing user experiences and driving businesses to new heights.
-          What truly sets me apart is my unwavering dedication to delivering customized solutions with precision and an unwavering commitment to deadlines. When you collaborate with me, you embark on a transformative journey. I meticulously delve into your unique vision, ensuring that the final product aligns seamlessly with your objectives. The result? Satisfied clients from a wide array of industries who have praised my work.
-        </p>
+          I'm excited to introduce myself as a passionate <span className="text-blue-500">full-stack web developer</span>. I'm eager to explore opportunities in <span className="text-blue-500">MERN development (MongoDB, Express.js, React.js, and Node.js)</span>. I love creating digital solutions that improve user experiences and help businesses succeed. What makes me unique is my dedication to delivering customized solutions on time. When you work with me, it's a journey. I carefully understand your vision to create a product that meets your goals. The result? Happy clients from various industries.
+          I'm not just a tech expert; I'm also a clear communicator. I can explain complex code in simple terms, ensuring everyone understands. I focus on future-proof solutions to keep you ahead in technology. If you need a dedicated web developer, I believe my skills make me a great fit. I look forward to helping your organization succeed and bringing your digital ideas to life.</p>
         <br />
         <p className="text-xl">
-          In addition to my technical prowess, I excel as an effective and clear communicator. I bridge the gap between complex lines of code and a lucid understanding, ensuring that all stakeholders are on the same page. My forward-thinking approach guarantees that the solutions I deliver are not just for today but are also future-proofed, keeping you at the forefront of technological advancements.
-          If you are seeking a dedicated and passionate web developer to join your team, I am confident that my skills and expertise make me the ideal candidate. I am excited about the prospect of contributing to your organization's success and bringing your digital vision to life.        </p>
+          I'm also a clear communicator. I can explain complex code in simple terms, ensuring everyone understands. I focus on future-proof solutions to keep you ahead in technology. If you need a dedicated <span className="text-blue-500">MERN developer</span>, I believe my skills make me a great fit. I look forward to helping your organization succeed and bringing your digital ideas to life.
+        </p>
       </div>
     </div>
   );

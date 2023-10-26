@@ -1,7 +1,7 @@
 import React from "react";
 import fitneeLogger from "../assets/portfolio/FITNESSLOGGER.png";
 import astus from "../assets/portfolio/Astus.png";
-import brandQuube from "../assets/portfolio/BrandQuube.png";
+import deepstack from "../assets/portfolio/deepstack.png";
 import restro from "../assets/portfolio/restro.png";
 import vj from "../assets/portfolio/vj.png";
 import wheather from "../assets/portfolio/wheather.png";
@@ -22,9 +22,9 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      src: brandQuube,
-      link: "https://brand-quube.netlify.app",
-      code: "https://github.com/DeepteshChaudhari/BQ-Website",
+      src: deepstack,
+      link: "https://deep-stack.netlify.app",
+      code: "https://github.com/DeepteshChaudhari/freelancing-website",
     },
     {
       id: 4,
@@ -48,7 +48,7 @@ const Portfolio = () => {
   return (
     <div
       name="portfolio"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white h-fit lg:h-screen p-4"
+      className="bg-gradient-to-b from-black to-gray-800 w-screen text-white h-fit lg:h-screen p-4"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center items-center w-full h-full">
         <div className="pb-8 flex flex-col items-center">

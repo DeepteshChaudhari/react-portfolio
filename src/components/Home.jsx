@@ -1,14 +1,15 @@
 import React from "react";
-import HeroImage from "../assets/my-profile.jpg";
+import HeroImage from "../assets/myPic.png";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { RiDoubleQuotesL, RiDoubleQuotesR } from "react-icons/ri";
 import { Link } from "react-scroll";
+
 
 const Home = () => {
   return (
     <div
       name="home"
-      className="w-full h-fit lg:h-screen bg-gradient-to-b from-black via-black to-gray-800"
+      className="w-screen h-fit lg:h-screen bg-gradient-to-b from-black via-black to-gray-800"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full pt-28 pb-8 px-4 md:flex-row">
         <div className="flex flex-col justify-center h-fit">
@@ -19,9 +20,7 @@ const Home = () => {
             I'm a Full stack Developer
           </h2>
           <p className="pt-4 text-gray-500 max-w-md hover:scale-105 duration-500">
-            who takes pride in crafting captivating digital solutions, driving
-            client satisfaction, and ensuring future-proofed success for
-            startups, SMEs, and enterprises alike.
+            Someone who enjoys creating amazing digital solutions, making clients happy, and ensuring long-term success for startups, small businesses, and big companies.
           </p>
           <div className="text-blue-300 font-signature">
             <RiDoubleQuotesR size={60} />
@@ -40,9 +39,9 @@ const Home = () => {
             </Link>
           </div>
         </div>
-        <div>
+        <div className="w-fit border-b-4 border-blue-400">
           <img
-            className="rounded-2xl md:w-96"
+            className="md:w-96 m-auto px-4 pt-4"
             src={HeroImage}
             alt="my profile"
           />
